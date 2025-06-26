@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "jSlqdT9xHRcXAi2K857VjR/wWk7j6G6344BS7mTS5Ic=",
+  "Source": "DNATestingSystem.GrpcService.TienDM",
+  "BasePath": "_content/DNATestingSystem.GrpcService.TienDM",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

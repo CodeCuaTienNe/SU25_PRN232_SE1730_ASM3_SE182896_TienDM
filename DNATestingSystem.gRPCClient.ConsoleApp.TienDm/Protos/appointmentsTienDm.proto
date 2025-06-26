@@ -1,0 +1,91 @@
+syntax = "proto3";
+
+option csharp_namespace = "DNATestingSystem.GrpcService.TienDM.Protos";
+
+service AppointmentsTienDmGRPC{
+	rpc GetAllAsync(EmptyRequest) returns (AppointmentsTienDmList);
+	//rpc GetAllPaginatedAsync(PaginationRequest) returns (AppointmentsTienDmPaginationResult);
+	rpc GetByIdAsync(GetByIdRequest) returns (AppointmentsTienDm);
+	//rpc SearchAsync(SearchAppointmentsTienDmRequest) returns (AppointmentsTienDmPaginationResult);
+	//rpc SearchByParamsAsync(SearchByParamsRequest) returns (AppointmentsTienDmPaginationResult);
+	rpc CreateAsync(AppointmentsTienDm) returns (MutationResult);
+	rpc UpdateAsync(AppointmentsTienDm) returns (MutationResult);
+	rpc DeleteAsync(DeleteRequest) returns (MutationResult);
+}
+
+message EmptyRequest{}
+
+message AppointmentsTienDmList {
+	repeated AppointmentsTienDm appointments = 1;
+}
+
+message AppointmentsTienDm {
+	int32 appointmentsTienDmid = 1;
+	int32 userAccountId = 2;
+	int32 servicesNhanVtid = 3;
+	int32 appointmentStatusesTienDmid = 4;
+	string appointmentDate = 5; // DateOnly as string (yyyy-MM-dd)
+	string appointmentTime = 6; // TimeOnly as string (HH:mm:ss)
+	string samplingMethod = 7;
+	string address = 8;
+	string contactPhone = 9;
+	string notes = 10;
+	string createdDate = 11; // DateTime as string (ISO 8601)
+	string modifiedDate = 12; // DateTime as string (ISO 8601)
+	double totalAmount = 13;
+	bool isPaid = 14;
+}
+
+message GetByIdRequest {
+	int32 appointmentsTienDmid = 1;
+}
+
+message PaginationRequest {
+	int32 page = 1;
+	int32 pageSize = 2;
+}
+
+
+message SearchAppointmentsTienDmRequest {
+	int32 appointmentsTienDmid = 1;
+	string contactPhone = 2;
+	double totalAmount = 3;
+	int32 currentPage = 4;
+	int32 pageSize = 5;
+}
+
+message SearchByParamsRequest {
+	int32 id = 1;
+	string contactPhone = 2;
+	double totalAmount = 3;
+	int32 page = 4;
+	int32 pageSize = 5;
+}
+
+message CreateResponse {
+	int32 id = 1;
+}
+
+message UpdateResponse {
+	int32 result = 1;
+}
+
+message DeleteRequest {
+	int32 id = 1;
+}
+
+message MutationResult {
+	int32 result = 1;
+}
+
+message DeleteResponse {
+	bool success = 1;
+}
+
+message AppointmentsTienDmPaginationResult {
+	int32 totalItems = 1;
+	int32 totalPages = 2;
+	int32 currentPages = 3;
+	int32 pageSize = 4;
+	repeated AppointmentsTienDm items = 5;
+}

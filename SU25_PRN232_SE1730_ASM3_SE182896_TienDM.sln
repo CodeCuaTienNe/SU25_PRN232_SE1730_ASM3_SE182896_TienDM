@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DNATestingSystem.Repository.TienDM", "DNATestingSystem.Repository.TienDM\DNATestingSystem.Repository.TienDM.csproj", "{2B40E90A-229B-45F0-BA50-BA19895AED7B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DNATestingSystem.Services.TienDM", "DNATestingSystem.Services.TienDM\DNATestingSystem.Services.TienDM.csproj", "{BFB599CD-683B-4B5D-A88F-284299DEE4CB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DNATestingSystem.GrpcService.TienDM", "DNATestingSystem.GrpcService.TienDM\DNATestingSystem.GrpcService.TienDM.csproj", "{B520AB4C-52FE-4943-90F6-77A4BED8E9D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DNATestingSystem.gRPCClient.ConsoleApp.TienDm", "DNATestingSystem.gRPCClient.ConsoleApp.TienDm\DNATestingSystem.gRPCClient.ConsoleApp.TienDm.csproj", "{A820DFFB-EC31-4EA8-9229-C9DB65FA2706}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B40E90A-229B-45F0-BA50-BA19895AED7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B40E90A-229B-45F0-BA50-BA19895AED7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B40E90A-229B-45F0-BA50-BA19895AED7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B40E90A-229B-45F0-BA50-BA19895AED7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFB599CD-683B-4B5D-A88F-284299DEE4CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFB599CD-683B-4B5D-A88F-284299DEE4CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFB599CD-683B-4B5D-A88F-284299DEE4CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFB599CD-683B-4B5D-A88F-284299DEE4CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B520AB4C-52FE-4943-90F6-77A4BED8E9D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B520AB4C-52FE-4943-90F6-77A4BED8E9D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B520AB4C-52FE-4943-90F6-77A4BED8E9D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B520AB4C-52FE-4943-90F6-77A4BED8E9D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A820DFFB-EC31-4EA8-9229-C9DB65FA2706}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A820DFFB-EC31-4EA8-9229-C9DB65FA2706}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A820DFFB-EC31-4EA8-9229-C9DB65FA2706}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A820DFFB-EC31-4EA8-9229-C9DB65FA2706}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E2F1003F-8F95-433C-973F-3EAC6BDA5137}
+	EndGlobalSection
+EndGlobal
