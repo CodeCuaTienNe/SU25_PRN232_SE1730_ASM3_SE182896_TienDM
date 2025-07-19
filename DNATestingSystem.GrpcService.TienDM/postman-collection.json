@@ -1,0 +1,497 @@
+{
+  "info": {
+    "_postman_id": "d8f7b2a9-3c4e-4d5f-8e9f-1a2b3c4d5e6f",
+    "name": "DNA Testing System - gRPC API Collection",
+    "description": "Comprehensive Postman collection for testing DNA Testing System gRPC services with HTTPS support",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "12345678"
+  },
+  "item": [
+    {
+      "name": "Greeter Service",
+      "item": [
+        {
+          "name": "Say Hello",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/grpc",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "grpc",
+              "grpc": {
+                "service": "greet.Greeter",
+                "method": "SayHello",
+                "message": {
+                  "name": "Postman User"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{base_url}}/greet.Greeter/SayHello",
+              "host": ["{{base_url}}"],
+              "path": ["greet.Greeter", "SayHello"]
+            },
+            "description": "Test the basic greeting service"
+          },
+          "response": []
+        }
+      ],
+      "description": "Basic greeting service for testing gRPC connectivity"
+    },
+    {
+      "name": "Appointments Service - CRUD Operations",
+      "item": [
+        {
+          "name": "Get All Appointments",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/grpc",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "grpc",
+              "grpc": {
+                "service": "AppointmentsTienDmGRPC",
+                "method": "GetAllAsync",
+                "message": {}
+              }
+            },
+            "url": {
+              "raw": "{{base_url}}/AppointmentsTienDmGRPC/GetAllAsync",
+              "host": ["{{base_url}}"],
+              "path": ["AppointmentsTienDmGRPC", "GetAllAsync"]
+            },
+            "description": "Retrieve all appointments from the database"
+          },
+          "response": []
+        },
+        {
+          "name": "Get Appointment By ID",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/grpc",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "grpc",
+              "grpc": {
+                "service": "AppointmentsTienDmGRPC",
+                "method": "GetByIdAsync",
+                "message": {
+                  "appointmentsTienDmid": 1
+                }
+              }
+            },
+            "url": {
+              "raw": "{{base_url}}/AppointmentsTienDmGRPC/GetByIdAsync",
+              "host": ["{{base_url}}"],
+              "path": ["AppointmentsTienDmGRPC", "GetByIdAsync"]
+            },
+            "description": "Retrieve a specific appointment by its ID"
+          },
+          "response": []
+        },
+        {
+          "name": "Create New Appointment",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/grpc",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "grpc",
+              "grpc": {
+                "service": "AppointmentsTienDmGRPC",
+                "method": "CreateAsync",
+                "message": {
+                  "appointmentsTienDmid": 0,
+                  "userAccountId": 1,
+                  "servicesNhanVtid": 1,
+                  "appointmentStatusesTienDmid": 1,
+                  "appointmentDate": "2025-08-15",
+                  "appointmentTime": "14:30:00",
+                  "samplingMethod": "Home Visit",
+                  "address": "123 Main Street, City, State 12345",
+                  "contactPhone": "+1-555-123-4567",
+                  "notes": "New appointment created via Postman gRPC test",
+                  "createdDate": "2025-07-14T10:00:00.000Z",
+                  "modifiedDate": "2025-07-14T10:00:00.000Z",
+                  "totalAmount": 299.99,
+                  "isPaid": false
+                }
+              }
+            },
+            "url": {
+              "raw": "{{base_url}}/AppointmentsTienDmGRPC/CreateAsync",
+              "host": ["{{base_url}}"],
+              "path": ["AppointmentsTienDmGRPC", "CreateAsync"]
+            },
+            "description": "Create a new DNA testing appointment"
+          },
+          "response": []
+        },
+        {
+          "name": "Update Appointment",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/grpc",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "grpc",
+              "grpc": {
+                "service": "AppointmentsTienDmGRPC",
+                "method": "UpdateAsync",
+                "message": {
+                  "appointmentsTienDmid": 1,
+                  "userAccountId": 1,
+                  "servicesNhanVtid": 1,
+                  "appointmentStatusesTienDmid": 2,
+                  "appointmentDate": "2025-08-16",
+                  "appointmentTime": "15:00:00",
+                  "samplingMethod": "Clinic Visit",
+                  "address": "456 Updated Street, New City, State 54321",
+                  "contactPhone": "+1-555-987-6543",
+                  "notes": "Updated appointment information via Postman gRPC test",
+                  "createdDate": "2025-07-14T10:00:00.000Z",
+                  "modifiedDate": "2025-07-14T11:30:00.000Z",
+                  "totalAmount": 399.99,
+                  "isPaid": true
+                }
+              }
+            },
+            "url": {
+              "raw": "{{base_url}}/AppointmentsTienDmGRPC/UpdateAsync",
+              "host": ["{{base_url}}"],
+              "path": ["AppointmentsTienDmGRPC", "UpdateAsync"]
+            },
+            "description": "Update an existing appointment with new information"
+          },
+          "response": []
+        },
+        {
+          "name": "Delete Appointment",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/grpc",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "grpc",
+              "grpc": {
+                "service": "AppointmentsTienDmGRPC",
+                "method": "DeleteAsync",
+                "message": {
+                  "id": 1
+                }
+              }
+            },
+            "url": {
+              "raw": "{{base_url}}/AppointmentsTienDmGRPC/DeleteAsync",
+              "host": ["{{base_url}}"],
+              "path": ["AppointmentsTienDmGRPC", "DeleteAsync"]
+            },
+            "description": "Delete an appointment by its ID"
+          },
+          "response": []
+        }
+      ],
+      "description": "Complete CRUD operations for DNA testing appointments"
+    },
+    {
+      "name": "Test Scenarios",
+      "item": [
+        {
+          "name": "Scenario 1: Complete Workflow Test",
+          "item": [
+            {
+              "name": "1. Create Test Appointment",
+              "request": {
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "Content-Type",
+                    "value": "application/grpc",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "grpc",
+                  "grpc": {
+                    "service": "AppointmentsTienDmGRPC",
+                    "method": "CreateAsync",
+                    "message": {
+                      "appointmentsTienDmid": 0,
+                      "userAccountId": 1,
+                      "servicesNhanVtid": 1,
+                      "appointmentStatusesTienDmid": 1,
+                      "appointmentDate": "2025-09-01",
+                      "appointmentTime": "09:00:00",
+                      "samplingMethod": "Lab Visit",
+                      "address": "DNA Testing Lab, Science Park",
+                      "contactPhone": "+1-555-TEST-DNA",
+                      "notes": "Workflow test appointment - Step 1",
+                      "createdDate": "2025-07-14T12:00:00.000Z",
+                      "modifiedDate": "2025-07-14T12:00:00.000Z",
+                      "totalAmount": 199.99,
+                      "isPaid": false
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "{{base_url}}/AppointmentsTienDmGRPC/CreateAsync",
+                  "host": ["{{base_url}}"],
+                  "path": ["AppointmentsTienDmGRPC", "CreateAsync"]
+                },
+                "description": "Step 1: Create a test appointment for workflow validation"
+              },
+              "response": []
+            },
+            {
+              "name": "2. Verify Created Appointment",
+              "request": {
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "Content-Type",
+                    "value": "application/grpc",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "grpc",
+                  "grpc": {
+                    "service": "AppointmentsTienDmGRPC",
+                    "method": "GetByIdAsync",
+                    "message": {
+                      "appointmentsTienDmid": "{{created_appointment_id}}"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "{{base_url}}/AppointmentsTienDmGRPC/GetByIdAsync",
+                  "host": ["{{base_url}}"],
+                  "path": ["AppointmentsTienDmGRPC", "GetByIdAsync"]
+                },
+                "description": "Step 2: Verify the appointment was created successfully"
+              },
+              "response": []
+            },
+            {
+              "name": "3. Update Appointment Status",
+              "request": {
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "Content-Type",
+                    "value": "application/grpc",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "grpc",
+                  "grpc": {
+                    "service": "AppointmentsTienDmGRPC",
+                    "method": "UpdateAsync",
+                    "message": {
+                      "appointmentsTienDmid": "{{created_appointment_id}}",
+                      "userAccountId": 1,
+                      "servicesNhanVtid": 1,
+                      "appointmentStatusesTienDmid": 2,
+                      "appointmentDate": "2025-09-01",
+                      "appointmentTime": "09:00:00",
+                      "samplingMethod": "Lab Visit",
+                      "address": "DNA Testing Lab, Science Park",
+                      "contactPhone": "+1-555-TEST-DNA",
+                      "notes": "Workflow test appointment - Updated in Step 3",
+                      "createdDate": "2025-07-14T12:00:00.000Z",
+                      "modifiedDate": "2025-07-14T12:30:00.000Z",
+                      "totalAmount": 199.99,
+                      "isPaid": true
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "{{base_url}}/AppointmentsTienDmGRPC/UpdateAsync",
+                  "host": ["{{base_url}}"],
+                  "path": ["AppointmentsTienDmGRPC", "UpdateAsync"]
+                },
+                "description": "Step 3: Update appointment status to paid"
+              },
+              "response": []
+            }
+          ],
+          "description": "End-to-end workflow test scenario"
+        },
+        {
+          "name": "Scenario 2: Error Handling Tests",
+          "item": [
+            {
+              "name": "Get Non-existent Appointment",
+              "request": {
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "Content-Type",
+                    "value": "application/grpc",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "grpc",
+                  "grpc": {
+                    "service": "AppointmentsTienDmGRPC",
+                    "method": "GetByIdAsync",
+                    "message": {
+                      "appointmentsTienDmid": 999999
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "{{base_url}}/AppointmentsTienDmGRPC/GetByIdAsync",
+                  "host": ["{{base_url}}"],
+                  "path": ["AppointmentsTienDmGRPC", "GetByIdAsync"]
+                },
+                "description": "Test error handling for non-existent appointment ID"
+              },
+              "response": []
+            },
+            {
+              "name": "Create Appointment with Invalid Data",
+              "request": {
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "Content-Type",
+                    "value": "application/grpc",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "grpc",
+                  "grpc": {
+                    "service": "AppointmentsTienDmGRPC",
+                    "method": "CreateAsync",
+                    "message": {
+                      "appointmentsTienDmid": 0,
+                      "userAccountId": -1,
+                      "servicesNhanVtid": -1,
+                      "appointmentStatusesTienDmid": -1,
+                      "appointmentDate": "invalid-date",
+                      "appointmentTime": "invalid-time",
+                      "samplingMethod": "",
+                      "address": "",
+                      "contactPhone": "invalid-phone",
+                      "notes": "Error test appointment",
+                      "createdDate": "invalid-datetime",
+                      "modifiedDate": "invalid-datetime",
+                      "totalAmount": -100,
+                      "isPaid": false
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "{{base_url}}/AppointmentsTienDmGRPC/CreateAsync",
+                  "host": ["{{base_url}}"],
+                  "path": ["AppointmentsTienDmGRPC", "CreateAsync"]
+                },
+                "description": "Test error handling for invalid appointment data"
+              },
+              "response": []
+            }
+          ],
+          "description": "Tests for various error scenarios and edge cases"
+        }
+      ],
+      "description": "Comprehensive test scenarios for validating the gRPC service functionality"
+    }
+  ],
+  "event": [
+    {
+      "listen": "prerequest",
+      "script": {
+        "type": "text/javascript",
+        "exec": [
+          "// Pre-request script for gRPC calls",
+          "// Set current timestamp for created/modified dates",
+          "pm.globals.set(\"current_timestamp\", new Date().toISOString());",
+          "",
+          "// Generate random phone number for testing",
+          "const randomPhone = \"+1-555-\" + Math.floor(Math.random() * 900 + 100) + \"-\" + Math.floor(Math.random() * 9000 + 1000);",
+          "pm.globals.set(\"random_phone\", randomPhone);",
+          "",
+          "// Generate random amount",
+          "const randomAmount = Math.floor(Math.random() * 500 + 100) + 0.99;",
+          "pm.globals.set(\"random_amount\", randomAmount);"
+        ]
+      }
+    },
+    {
+      "listen": "test",
+      "script": {
+        "type": "text/javascript",
+        "exec": [
+          "// Global test script for all gRPC responses",
+          "",
+          "// Check if response is successful",
+          "pm.test(\"gRPC call successful\", function () {",
+          "    pm.expect(pm.response.code).to.be.oneOf([200, 201]);",
+          "});",
+          "",
+          "// Check response time",
+          "pm.test(\"Response time is acceptable\", function () {",
+          "    pm.expect(pm.response.responseTime).to.be.below(5000);",
+          "});",
+          "",
+          "// Log response for debugging",
+          "console.log(\"Response:\", pm.response.json());"
+        ]
+      }
+    }
+  ],
+  "variable": [
+    {
+      "key": "base_url",
+      "value": "https://localhost:7238",
+      "type": "string"
+    },
+    {
+      "key": "created_appointment_id",
+      "value": "1",
+      "type": "string"
+    },
+    {
+      "key": "api_version",
+      "value": "v1",
+      "type": "string"
+    }
+  ],
+  "protocolProfileBehavior": {
+    "disableBodyPruning": true
+  }
+}

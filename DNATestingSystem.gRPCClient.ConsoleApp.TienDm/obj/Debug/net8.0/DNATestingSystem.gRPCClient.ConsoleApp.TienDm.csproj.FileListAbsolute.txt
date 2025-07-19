@@ -41,3 +41,4 @@ C:\Users\2004d\Downloads\SU25_PRN232_SE1730_ASM3_SE182896_TienDM\DNATestingSyste
 C:\Users\2004d\Downloads\SU25_PRN232_SE1730_ASM3_SE182896_TienDM\DNATestingSystem.gRPCClient.ConsoleApp.TienDm\obj\Debug\net8.0\DNATestingSystem.gRPCClient.ConsoleApp.TienDm.pdb
 C:\Users\2004d\Downloads\SU25_PRN232_SE1730_ASM3_SE182896_TienDM\DNATestingSystem.gRPCClient.ConsoleApp.TienDm\obj\Debug\net8.0\DNATestingSystem.gRPCClient.ConsoleApp.TienDm.genruntimeconfig.cache
 C:\Users\2004d\Downloads\SU25_PRN232_SE1730_ASM3_SE182896_TienDM\DNATestingSystem.gRPCClient.ConsoleApp.TienDm\obj\Debug\net8.0\ref\DNATestingSystem.gRPCClient.ConsoleApp.TienDm.dll
+D:\SU25_PRN232_SE1730_ASM3_SE182896_TienDM\DNATestingSystem.gRPCClient.ConsoleApp.TienDm\obj\Debug\net8.0\DNATestingSystem.gRPCClient.ConsoleApp.TienDm.sourcelink.json

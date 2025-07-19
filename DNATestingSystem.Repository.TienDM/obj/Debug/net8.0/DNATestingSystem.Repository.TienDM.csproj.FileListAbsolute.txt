@@ -101,3 +101,4 @@ C:\Users\2004d\Downloads\SU25_PRN232_SE1730_ASM3_SE182896_TienDM\DNATestingSyste
 C:\Users\2004d\Downloads\SU25_PRN232_SE1730_ASM3_SE182896_TienDM\DNATestingSystem.Repository.TienDM\obj\Debug\net8.0\DNATestingSystem.Repository.TienDM.pdb
 C:\Users\2004d\Downloads\SU25_PRN232_SE1730_ASM3_SE182896_TienDM\DNATestingSystem.Repository.TienDM\obj\Debug\net8.0\DNATestingSystem.Repository.TienDM.genruntimeconfig.cache
 C:\Users\2004d\Downloads\SU25_PRN232_SE1730_ASM3_SE182896_TienDM\DNATestingSystem.Repository.TienDM\obj\Debug\net8.0\ref\DNATestingSystem.Repository.TienDM.dll
+D:\SU25_PRN232_SE1730_ASM3_SE182896_TienDM\DNATestingSystem.Repository.TienDM\obj\Debug\net8.0\DNATestingSystem.Repository.TienDM.sourcelink.json

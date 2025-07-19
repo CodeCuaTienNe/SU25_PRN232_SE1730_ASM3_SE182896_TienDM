@@ -1,7 +1,16 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\2004d\\Downloads\\SU25_PRN232_SE1730_ASM3_SE182896_TienDM\\",
-  "Documents": [],
+  "WorkspaceRootPath": "D:\\SU25_PRN232_SE1730_ASM3_SE182896_TienDM\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2B40E90A-229B-45F0-BA50-BA19895AED7B}|DNATestingSystem.Repository.TienDM\\DNATestingSystem.Repository.TienDM.csproj|d:\\su25_prn232_se1730_asm3_se182896_tiendm\\dnatestingsystem.repository.tiendm\\appointmentstiendmrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B40E90A-229B-45F0-BA50-BA19895AED7B}|DNATestingSystem.Repository.TienDM\\DNATestingSystem.Repository.TienDM.csproj|solutionrelative:dnatestingsystem.repository.tiendm\\appointmentstiendmrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A820DFFB-EC31-4EA8-9229-C9DB65FA2706}|DNATestingSystem.gRPCClient.ConsoleApp.TienDm\\DNATestingSystem.gRPCClient.ConsoleApp.TienDm.csproj|d:\\su25_prn232_se1730_asm3_se182896_tiendm\\dnatestingsystem.grpcclient.consoleapp.tiendm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A820DFFB-EC31-4EA8-9229-C9DB65FA2706}|DNATestingSystem.gRPCClient.ConsoleApp.TienDm\\DNATestingSystem.gRPCClient.ConsoleApp.TienDm.csproj|solutionrelative:dnatestingsystem.grpcclient.consoleapp.tiendm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,6 +35,30 @@
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppointmentsTienDmRepository.cs",
+              "DocumentMoniker": "D:\\SU25_PRN232_SE1730_ASM3_SE182896_TienDM\\DNATestingSystem.Repository.TienDM\\AppointmentsTienDmRepository.cs",
+              "RelativeDocumentMoniker": "DNATestingSystem.Repository.TienDM\\AppointmentsTienDmRepository.cs",
+              "ToolTip": "D:\\SU25_PRN232_SE1730_ASM3_SE182896_TienDM\\DNATestingSystem.Repository.TienDM\\AppointmentsTienDmRepository.cs",
+              "RelativeToolTip": "DNATestingSystem.Repository.TienDM\\AppointmentsTienDmRepository.cs",
+              "ViewState": "AgIAAIYAAAAAAAAAAAAUwJEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T03:09:46.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\SU25_PRN232_SE1730_ASM3_SE182896_TienDM\\DNATestingSystem.gRPCClient.ConsoleApp.TienDm\\Program.cs",
+              "RelativeDocumentMoniker": "DNATestingSystem.gRPCClient.ConsoleApp.TienDm\\Program.cs",
+              "ToolTip": "D:\\SU25_PRN232_SE1730_ASM3_SE182896_TienDM\\DNATestingSystem.gRPCClient.ConsoleApp.TienDm\\Program.cs",
+              "RelativeToolTip": "DNATestingSystem.gRPCClient.ConsoleApp.TienDm\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T03:19:18.826Z"
             }
           ]
         }

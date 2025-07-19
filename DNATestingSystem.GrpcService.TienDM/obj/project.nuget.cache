@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5Jrr7JYGEhytW7C5IvMmPwyxYTYKVB5daJNN8IYontW0m6aSZn11wYtV1ZC11dlrJ04yZGTigASl39CZFuqFvw==",
+  "dgSpecHash": "rOTwQQOKpNo=",
   "success": true,
-  "projectFilePath": "D:\\SU25_PRN232_SE1730_ASM3_SE182896_TienDM\\DNATestingSystem.GrpcService.TienDM\\DNATestingSystem.GrpcService.TienDM.csproj",
+  "projectFilePath": "D:\\Class ASM\\SU25_PRN232_SE1730_ASM3_SE182896_TienDM\\DNATestingSystem.GrpcService.TienDM\\DNATestingSystem.GrpcService.TienDM.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\2004d\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\2004d\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
