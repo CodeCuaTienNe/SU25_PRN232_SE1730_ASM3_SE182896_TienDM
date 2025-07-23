@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DNATestingSystem.Repository.TienDM")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b4a08d6ca6ab2936e92948075c1ebef48f999182")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c3458666e1579e2dd8538d32123ccab60449f414")]
 [assembly: System.Reflection.AssemblyProductAttribute("DNATestingSystem.Repository.TienDM")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DNATestingSystem.Repository.TienDM")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

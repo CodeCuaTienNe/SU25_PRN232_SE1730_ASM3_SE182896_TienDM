@@ -174,3 +174,6 @@ D:\SU25_PRN232_SE1730_ASM3_SE182896_TienDM\DNATestingSystem.GrpcService.TienDM\o
 D:\SU25_PRN232_SE1730_ASM3_SE182896_TienDM\DNATestingSystem.GrpcService.TienDM\obj\Debug\net8.0\staticwebassets.build.json.cache
 D:\SU25_PRN232_SE1730_ASM3_SE182896_TienDM\DNATestingSystem.GrpcService.TienDM\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 D:\SU25_PRN232_SE1730_ASM3_SE182896_TienDM\DNATestingSystem.GrpcService.TienDM\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\SU25_PRN232_SE1730_ASM3_SE182896_TienDM\DNATestingSystem.GrpcService.TienDM\bin\Debug\net8.0\postman-collection-grpc.json
+D:\SU25_PRN232_SE1730_ASM3_SE182896_TienDM\DNATestingSystem.GrpcService.TienDM\bin\Debug\net8.0\postman-collection.json
+D:\SU25_PRN232_SE1730_ASM3_SE182896_TienDM\DNATestingSystem.GrpcService.TienDM\bin\Debug\net8.0\postman-environment.json

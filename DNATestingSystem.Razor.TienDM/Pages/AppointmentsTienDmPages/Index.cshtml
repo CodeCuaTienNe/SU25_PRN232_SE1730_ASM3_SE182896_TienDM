@@ -1,0 +1,108 @@
+﻿@page
+@model DNATestingSystem.Razor.TienDM.Pages.AppointmentsTienDmPages.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.AppointmentsTienDm[0].AppointmentDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AppointmentsTienDm[0].AppointmentTime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AppointmentsTienDm[0].SamplingMethod)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AppointmentsTienDm[0].Address)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AppointmentsTienDm[0].ContactPhone)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AppointmentsTienDm[0].Notes)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AppointmentsTienDm[0].CreatedDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AppointmentsTienDm[0].ModifiedDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AppointmentsTienDm[0].TotalAmount)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AppointmentsTienDm[0].IsPaid)
+            </th>
+@*             <th>
+                @Html.DisplayNameFor(model => model.AppointmentsTienDm[0].AppointmentStatusesTienDm)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AppointmentsTienDm[0].ServicesNhanVt)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AppointmentsTienDm[0].UserAccount)
+            </th> *@
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.AppointmentsTienDm) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.AppointmentDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AppointmentTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SamplingMethod)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Address)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ContactPhone)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Notes)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CreatedDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ModifiedDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TotalAmount)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsPaid)
+            </td>
+@*             <td>
+                @Html.DisplayFor(modelItem => item.AppointmentStatusesTienDm.StatusName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ServicesNhanVt.ServiceName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UserAccount.Email)
+            </td> *@
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.AppointmentsTienDmid">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.AppointmentsTienDmid">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.AppointmentsTienDmid">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

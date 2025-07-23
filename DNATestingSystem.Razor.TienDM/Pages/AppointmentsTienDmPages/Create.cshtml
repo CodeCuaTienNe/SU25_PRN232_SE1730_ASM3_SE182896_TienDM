@@ -1,0 +1,89 @@
+﻿@page
+@model DNATestingSystem.Razor.TienDM.Pages.AppointmentsTienDmPages.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>AppointmentsTienDm</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <span class="text-danger">*</span>
+                <label asp-for="AppointmentsTienDm.UserAccountId" class="control-label"></label>
+                <select asp-for="AppointmentsTienDm.UserAccountId" class ="form-control" asp-items="ViewBag.UserAccountId"></select>
+            </div>
+            <div class="form-group">
+                <span class="text-danger">*</span>
+                <label asp-for="AppointmentsTienDm.ServicesNhanVtid" class="control-label"></label>
+                <select asp-for="AppointmentsTienDm.ServicesNhanVtid" class ="form-control" asp-items="ViewBag.ServicesNhanVtid"></select>
+            </div>
+            <div class="form-group">
+                <span class="text-danger">*</span>
+                <label asp-for="AppointmentsTienDm.AppointmentStatusesTienDmid" class="control-label"></label>
+                <select asp-for="AppointmentsTienDm.AppointmentStatusesTienDmid" class ="form-control" asp-items="ViewBag.AppointmentStatusesTienDmid"></select>
+            </div>
+            <div class="form-group">
+                <span class="text-danger">*</span>
+                <label asp-for="AppointmentsTienDm.AppointmentDate" class="control-label"></label>
+                <input asp-for="AppointmentsTienDm.AppointmentDate" class="form-control" />
+                <span asp-validation-for="AppointmentsTienDm.AppointmentDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <span class="text-danger">*</span>
+                <label asp-for="AppointmentsTienDm.AppointmentTime" class="control-label"></label>
+                <input asp-for="AppointmentsTienDm.AppointmentTime" class="form-control" />
+                <span asp-validation-for="AppointmentsTienDm.AppointmentTime" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <span class="text-danger">*</span>
+                <label asp-for="AppointmentsTienDm.SamplingMethod" class="control-label"></label>
+                <input asp-for="AppointmentsTienDm.SamplingMethod" class="form-control" />
+                <span asp-validation-for="AppointmentsTienDm.SamplingMethod" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="AppointmentsTienDm.Address" class="control-label"></label>
+                <input asp-for="AppointmentsTienDm.Address" class="form-control" />
+                <span asp-validation-for="AppointmentsTienDm.Address" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <span class="text-danger">*</span>
+                <label asp-for="AppointmentsTienDm.ContactPhone" class="control-label"></label>
+                <input asp-for="AppointmentsTienDm.ContactPhone" class="form-control" />
+                <span asp-validation-for="AppointmentsTienDm.ContactPhone" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="AppointmentsTienDm.Notes" class="control-label"></label>
+                <input asp-for="AppointmentsTienDm.Notes" class="form-control" />
+                <span asp-validation-for="AppointmentsTienDm.Notes" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="AppointmentsTienDm.ModifiedDate" class="control-label"></label>
+                <input asp-for="AppointmentsTienDm.ModifiedDate" class="form-control" />
+                <span asp-validation-for="AppointmentsTienDm.ModifiedDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <span class="text-danger">*</span>
+                <label asp-for="AppointmentsTienDm.TotalAmount" class="control-label"></label>
+                <input asp-for="AppointmentsTienDm.TotalAmount" class="form-control" />
+                <span asp-validation-for="AppointmentsTienDm.TotalAmount" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
