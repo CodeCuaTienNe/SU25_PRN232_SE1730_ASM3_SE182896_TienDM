@@ -16,28 +16,37 @@
             <div class="form-group">
                 <span class="text-danger">*</span>
                 <label asp-for="AppointmentsTienDm.UserAccountId" class="control-label"></label>
-                <select asp-for="AppointmentsTienDm.UserAccountId" class ="form-control" asp-items="ViewBag.UserAccountId"></select>
+                <input asp-for="AppointmentsTienDm.UserAccountId" class="form-control" type="number" min="1" />
+                <span asp-validation-for="AppointmentsTienDm.UserAccountId" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <span class="text-danger">*</span>
                 <label asp-for="AppointmentsTienDm.ServicesNhanVtid" class="control-label"></label>
-                <select asp-for="AppointmentsTienDm.ServicesNhanVtid" class ="form-control" asp-items="ViewBag.ServicesNhanVtid"></select>
+                <input asp-for="AppointmentsTienDm.ServicesNhanVtid" class="form-control" type="number" min="1" />
+                <span asp-validation-for="AppointmentsTienDm.ServicesNhanVtid" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <span class="text-danger">*</span>
                 <label asp-for="AppointmentsTienDm.AppointmentStatusesTienDmid" class="control-label"></label>
-                <select asp-for="AppointmentsTienDm.AppointmentStatusesTienDmid" class ="form-control" asp-items="ViewBag.AppointmentStatusesTienDmid"></select>
+                <input asp-for="AppointmentsTienDm.AppointmentStatusesTienDmid" class="form-control" type="number" min="1" />
+                <span asp-validation-for="AppointmentsTienDm.AppointmentStatusesTienDmid" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <span class="text-danger">*</span>
                 <label asp-for="AppointmentsTienDm.AppointmentDate" class="control-label"></label>
-                <input asp-for="AppointmentsTienDm.AppointmentDate" class="form-control" />
+                <input asp-for="AppointmentsTienDm.AppointmentDate" class="form-control" type="date" />
                 <span asp-validation-for="AppointmentsTienDm.AppointmentDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+            <div class="form-group">
+                <label asp-for="AppointmentsTienDm.IsPaid" class="control-label"></label>
+                <input asp-for="AppointmentsTienDm.IsPaid" type="checkbox" />
+                <span asp-validation-for="AppointmentsTienDm.IsPaid" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <span class="text-danger">*</span>
                 <label asp-for="AppointmentsTienDm.AppointmentTime" class="control-label"></label>
-                <input asp-for="AppointmentsTienDm.AppointmentTime" class="form-control" />
+                <input asp-for="AppointmentsTienDm.AppointmentTime" class="form-control" type="time" step="1" />
                 <span asp-validation-for="AppointmentsTienDm.AppointmentTime" class="text-danger"></span>
             </div>
             <div class="form-group">
@@ -62,11 +71,7 @@
                 <input asp-for="AppointmentsTienDm.Notes" class="form-control" />
                 <span asp-validation-for="AppointmentsTienDm.Notes" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <label asp-for="AppointmentsTienDm.ModifiedDate" class="control-label"></label>
-                <input asp-for="AppointmentsTienDm.ModifiedDate" class="form-control" />
-                <span asp-validation-for="AppointmentsTienDm.ModifiedDate" class="text-danger"></span>
-            </div>
+            <!-- CreatedDate & ModifiedDate are set by backend, not user input -->
             <div class="form-group">
                 <span class="text-danger">*</span>
                 <label asp-for="AppointmentsTienDm.TotalAmount" class="control-label"></label>

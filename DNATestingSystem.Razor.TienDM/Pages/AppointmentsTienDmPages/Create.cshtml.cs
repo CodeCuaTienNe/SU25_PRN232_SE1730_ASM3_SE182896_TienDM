@@ -36,6 +36,11 @@ namespace DNATestingSystem.Razor.TienDM.Pages.AppointmentsTienDmPages
                 return Page();
             }
 
+            // Ensure CreatedDate and ModifiedDate are set to current UTC time in ISO 8601 format
+            var now = DateTime.UtcNow.ToString("yyyy-MM-ddTHH:mm:ss.fffZ");
+            AppointmentsTienDm.CreatedDate = now;
+            AppointmentsTienDm.ModifiedDate = now;
+
             try
             {
                 var result = _grpcService.Create(AppointmentsTienDm);

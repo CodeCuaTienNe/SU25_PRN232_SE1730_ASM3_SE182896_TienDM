@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "D:\\SU25_PRN232_SE1730_ASM3_SE182896_TienDM\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7BE9B2E0-9E4C-403A-9437-71E8D5A594C3}|DNATestingSystem.Razor.TienDM\\DNATestingSystem.Razor.TienDM.csproj|d:\\su25_prn232_se1730_asm3_se182896_tiendm\\dnatestingsystem.razor.tiendm\\pages\\appointmentstiendmpages\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7BE9B2E0-9E4C-403A-9437-71E8D5A594C3}|DNATestingSystem.Razor.TienDM\\DNATestingSystem.Razor.TienDM.csproj|solutionrelative:dnatestingsystem.razor.tiendm\\pages\\appointmentstiendmpages\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BE9B2E0-9E4C-403A-9437-71E8D5A594C3}|DNATestingSystem.Razor.TienDM\\DNATestingSystem.Razor.TienDM.csproj|d:\\su25_prn232_se1730_asm3_se182896_tiendm\\dnatestingsystem.razor.tiendm\\pages\\appointmentstiendmpages\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BE9B2E0-9E4C-403A-9437-71E8D5A594C3}|DNATestingSystem.Razor.TienDM\\DNATestingSystem.Razor.TienDM.csproj|solutionrelative:dnatestingsystem.razor.tiendm\\pages\\appointmentstiendmpages\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BE9B2E0-9E4C-403A-9437-71E8D5A594C3}|DNATestingSystem.Razor.TienDM\\DNATestingSystem.Razor.TienDM.csproj|d:\\su25_prn232_se1730_asm3_se182896_tiendm\\dnatestingsystem.razor.tiendm\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7BE9B2E0-9E4C-403A-9437-71E8D5A594C3}|DNATestingSystem.Razor.TienDM\\DNATestingSystem.Razor.TienDM.csproj|solutionrelative:dnatestingsystem.razor.tiendm\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BE9B2E0-9E4C-403A-9437-71E8D5A594C3}|DNATestingSystem.Razor.TienDM\\DNATestingSystem.Razor.TienDM.csproj|d:\\su25_prn232_se1730_asm3_se182896_tiendm\\dnatestingsystem.razor.tiendm\\pages\\appointmentstiendmpages\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7BE9B2E0-9E4C-403A-9437-71E8D5A594C3}|DNATestingSystem.Razor.TienDM\\DNATestingSystem.Razor.TienDM.csproj|solutionrelative:dnatestingsystem.razor.tiendm\\pages\\appointmentstiendmpages\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7BE9B2E0-9E4C-403A-9437-71E8D5A594C3}|DNATestingSystem.Razor.TienDM\\DNATestingSystem.Razor.TienDM.csproj|d:\\su25_prn232_se1730_asm3_se182896_tiendm\\dnatestingsystem.razor.tiendm\\services\\appointmentstiendmgrpcservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7BE9B2E0-9E4C-403A-9437-71E8D5A594C3}|DNATestingSystem.Razor.TienDM\\DNATestingSystem.Razor.TienDM.csproj|solutionrelative:dnatestingsystem.razor.tiendm\\services\\appointmentstiendmgrpcservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,20 +43,8 @@
       "RelativeMoniker": "D:0:0:{7BE9B2E0-9E4C-403A-9437-71E8D5A594C3}|DNATestingSystem.Razor.TienDM\\DNATestingSystem.Razor.TienDM.csproj|solutionrelative:dnatestingsystem.razor.tiendm\\dnatestingsystem.razor.tiendm.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BE9B2E0-9E4C-403A-9437-71E8D5A594C3}|DNATestingSystem.Razor.TienDM\\DNATestingSystem.Razor.TienDM.csproj|d:\\su25_prn232_se1730_asm3_se182896_tiendm\\dnatestingsystem.razor.tiendm\\pages\\appointmentstiendmpages\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BE9B2E0-9E4C-403A-9437-71E8D5A594C3}|DNATestingSystem.Razor.TienDM\\DNATestingSystem.Razor.TienDM.csproj|solutionrelative:dnatestingsystem.razor.tiendm\\pages\\appointmentstiendmpages\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BE9B2E0-9E4C-403A-9437-71E8D5A594C3}|DNATestingSystem.Razor.TienDM\\DNATestingSystem.Razor.TienDM.csproj|d:\\su25_prn232_se1730_asm3_se182896_tiendm\\dnatestingsystem.razor.tiendm\\pages\\appointmentstiendmpages\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7BE9B2E0-9E4C-403A-9437-71E8D5A594C3}|DNATestingSystem.Razor.TienDM\\DNATestingSystem.Razor.TienDM.csproj|solutionrelative:dnatestingsystem.razor.tiendm\\pages\\appointmentstiendmpages\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7BE9B2E0-9E4C-403A-9437-71E8D5A594C3}|DNATestingSystem.Razor.TienDM\\DNATestingSystem.Razor.TienDM.csproj|d:\\su25_prn232_se1730_asm3_se182896_tiendm\\dnatestingsystem.razor.tiendm\\pages\\appointmentstiendmpages\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7BE9B2E0-9E4C-403A-9437-71E8D5A594C3}|DNATestingSystem.Razor.TienDM\\DNATestingSystem.Razor.TienDM.csproj|solutionrelative:dnatestingsystem.razor.tiendm\\pages\\appointmentstiendmpages\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BE9B2E0-9E4C-403A-9437-71E8D5A594C3}|DNATestingSystem.Razor.TienDM\\DNATestingSystem.Razor.TienDM.csproj|d:\\su25_prn232_se1730_asm3_se182896_tiendm\\dnatestingsystem.razor.tiendm\\pages\\appointmentstiendmpages\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7BE9B2E0-9E4C-403A-9437-71E8D5A594C3}|DNATestingSystem.Razor.TienDM\\DNATestingSystem.Razor.TienDM.csproj|solutionrelative:dnatestingsystem.razor.tiendm\\pages\\appointmentstiendmpages\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B520AB4C-52FE-4943-90F6-77A4BED8E9D0}|DNATestingSystem.GrpcService.TienDM\\DNATestingSystem.GrpcService.TienDM.csproj|d:\\su25_prn232_se1730_asm3_se182896_tiendm\\dnatestingsystem.grpcservice.tiendm\\dnatestingsystem.grpcservice.tiendm.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -74,7 +78,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -94,7 +98,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\SU25_PRN232_SE1730_ASM3_SE182896_TienDM\\DNATestingSystem.Razor.TienDM\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "DNATestingSystem.Razor.TienDM\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\SU25_PRN232_SE1730_ASM3_SE182896_TienDM\\DNATestingSystem.Razor.TienDM\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "DNATestingSystem.Razor.TienDM\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAB2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-23T06:16:48.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "appointmentsTienDm.proto",
               "DocumentMoniker": "D:\\SU25_PRN232_SE1730_ASM3_SE182896_TienDM\\DNATestingSystem.Razor.TienDM\\Protos\\appointmentsTienDm.proto",
               "RelativeDocumentMoniker": "DNATestingSystem.Razor.TienDM\\Protos\\appointmentsTienDm.proto",
@@ -107,20 +124,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "AppointmentsTienDmGrpcService.cs",
               "DocumentMoniker": "D:\\SU25_PRN232_SE1730_ASM3_SE182896_TienDM\\DNATestingSystem.Razor.TienDM\\Services\\AppointmentsTienDmGrpcService.cs",
               "RelativeDocumentMoniker": "DNATestingSystem.Razor.TienDM\\Services\\AppointmentsTienDmGrpcService.cs",
               "ToolTip": "D:\\SU25_PRN232_SE1730_ASM3_SE182896_TienDM\\DNATestingSystem.Razor.TienDM\\Services\\AppointmentsTienDmGrpcService.cs",
               "RelativeToolTip": "DNATestingSystem.Razor.TienDM\\Services\\AppointmentsTienDmGrpcService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwA0AAABoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-23T05:09:09.981Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "DNATestingSystem.Razor.TienDM",
               "DocumentMoniker": "D:\\SU25_PRN232_SE1730_ASM3_SE182896_TienDM\\DNATestingSystem.Razor.TienDM\\DNATestingSystem.Razor.TienDM.csproj",
               "RelativeDocumentMoniker": "DNATestingSystem.Razor.TienDM\\DNATestingSystem.Razor.TienDM.csproj",
@@ -133,7 +150,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\SU25_PRN232_SE1730_ASM3_SE182896_TienDM\\DNATestingSystem.Razor.TienDM\\Pages\\AppointmentsTienDmPages\\Index.cshtml",
               "RelativeDocumentMoniker": "DNATestingSystem.Razor.TienDM\\Pages\\AppointmentsTienDmPages\\Index.cshtml",
@@ -146,7 +163,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "D:\\SU25_PRN232_SE1730_ASM3_SE182896_TienDM\\DNATestingSystem.Razor.TienDM\\Pages\\AppointmentsTienDmPages\\Delete.cshtml",
               "RelativeDocumentMoniker": "DNATestingSystem.Razor.TienDM\\Pages\\AppointmentsTienDmPages\\Delete.cshtml",
@@ -159,7 +176,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Details.cshtml",
               "DocumentMoniker": "D:\\SU25_PRN232_SE1730_ASM3_SE182896_TienDM\\DNATestingSystem.Razor.TienDM\\Pages\\AppointmentsTienDmPages\\Details.cshtml",
               "RelativeDocumentMoniker": "DNATestingSystem.Razor.TienDM\\Pages\\AppointmentsTienDmPages\\Details.cshtml",
@@ -172,46 +189,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 3,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\SU25_PRN232_SE1730_ASM3_SE182896_TienDM\\DNATestingSystem.Razor.TienDM\\Pages\\AppointmentsTienDmPages\\Edit.cshtml",
               "RelativeDocumentMoniker": "DNATestingSystem.Razor.TienDM\\Pages\\AppointmentsTienDmPages\\Edit.cshtml",
               "ToolTip": "D:\\SU25_PRN232_SE1730_ASM3_SE182896_TienDM\\DNATestingSystem.Razor.TienDM\\Pages\\AppointmentsTienDmPages\\Edit.cshtml",
               "RelativeToolTip": "DNATestingSystem.Razor.TienDM\\Pages\\AppointmentsTienDmPages\\Edit.cshtml",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-07-23T04:56:40.954Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\SU25_PRN232_SE1730_ASM3_SE182896_TienDM\\DNATestingSystem.Razor.TienDM\\Pages\\AppointmentsTienDmPages\\Create.cshtml",
               "RelativeDocumentMoniker": "DNATestingSystem.Razor.TienDM\\Pages\\AppointmentsTienDmPages\\Create.cshtml",
               "ToolTip": "D:\\SU25_PRN232_SE1730_ASM3_SE182896_TienDM\\DNATestingSystem.Razor.TienDM\\Pages\\AppointmentsTienDmPages\\Create.cshtml",
               "RelativeToolTip": "DNATestingSystem.Razor.TienDM\\Pages\\AppointmentsTienDmPages\\Create.cshtml",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAEwCwAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-07-23T04:56:40.607Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "Create.cshtml.cs",
               "DocumentMoniker": "D:\\SU25_PRN232_SE1730_ASM3_SE182896_TienDM\\DNATestingSystem.Razor.TienDM\\Pages\\AppointmentsTienDmPages\\Create.cshtml.cs",
               "RelativeDocumentMoniker": "DNATestingSystem.Razor.TienDM\\Pages\\AppointmentsTienDmPages\\Create.cshtml.cs",
               "ToolTip": "D:\\SU25_PRN232_SE1730_ASM3_SE182896_TienDM\\DNATestingSystem.Razor.TienDM\\Pages\\AppointmentsTienDmPages\\Create.cshtml.cs",
               "RelativeToolTip": "DNATestingSystem.Razor.TienDM\\Pages\\AppointmentsTienDmPages\\Create.cshtml.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAowA4AAABEAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAowBEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-23T04:56:40.835Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "D:\\SU25_PRN232_SE1730_ASM3_SE182896_TienDM\\DNATestingSystem.Razor.TienDM\\Pages\\AppointmentsTienDmPages\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "DNATestingSystem.Razor.TienDM\\Pages\\AppointmentsTienDmPages\\Index.cshtml.cs",
@@ -224,7 +241,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "DNATestingSystem.GrpcService.TienDM",
               "DocumentMoniker": "D:\\SU25_PRN232_SE1730_ASM3_SE182896_TienDM\\DNATestingSystem.GrpcService.TienDM\\DNATestingSystem.GrpcService.TienDM.csproj",
               "RelativeDocumentMoniker": "DNATestingSystem.GrpcService.TienDM\\DNATestingSystem.GrpcService.TienDM.csproj",
@@ -237,7 +254,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Delete.cshtml.cs",
               "DocumentMoniker": "D:\\SU25_PRN232_SE1730_ASM3_SE182896_TienDM\\DNATestingSystem.Razor.TienDM\\Pages\\AppointmentsTienDmPages\\Delete.cshtml.cs",
               "RelativeDocumentMoniker": "DNATestingSystem.Razor.TienDM\\Pages\\AppointmentsTienDmPages\\Delete.cshtml.cs",
@@ -250,7 +267,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Details.cshtml.cs",
               "DocumentMoniker": "D:\\SU25_PRN232_SE1730_ASM3_SE182896_TienDM\\DNATestingSystem.Razor.TienDM\\Pages\\AppointmentsTienDmPages\\Details.cshtml.cs",
               "RelativeDocumentMoniker": "DNATestingSystem.Razor.TienDM\\Pages\\AppointmentsTienDmPages\\Details.cshtml.cs",
@@ -263,7 +280,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Edit.cshtml.cs",
               "DocumentMoniker": "D:\\SU25_PRN232_SE1730_ASM3_SE182896_TienDM\\DNATestingSystem.Razor.TienDM\\Pages\\AppointmentsTienDmPages\\Edit.cshtml.cs",
               "RelativeDocumentMoniker": "DNATestingSystem.Razor.TienDM\\Pages\\AppointmentsTienDmPages\\Edit.cshtml.cs",
@@ -276,7 +293,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "AppointmentsTienDmRepository.cs",
               "DocumentMoniker": "D:\\SU25_PRN232_SE1730_ASM3_SE182896_TienDM\\DNATestingSystem.Repository.TienDM\\AppointmentsTienDmRepository.cs",
               "RelativeDocumentMoniker": "DNATestingSystem.Repository.TienDM\\AppointmentsTienDmRepository.cs",
@@ -289,7 +306,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\SU25_PRN232_SE1730_ASM3_SE182896_TienDM\\DNATestingSystem.gRPCClient.ConsoleApp.TienDm\\Program.cs",
               "RelativeDocumentMoniker": "DNATestingSystem.gRPCClient.ConsoleApp.TienDm\\Program.cs",
